@@ -1,0 +1,167 @@
+body{
+    margin: 100px;
+    background-image: url(/Micrositio/fondoc.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: circle;
+    border: darkred;
+    
+    
+}
+h1{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800px;
+}
+label:hover::before{
+    transform: scaleX(1);
+    transition: 2s;
+}
+.bg-5{
+    
+       background: linear-gradient(135deg, rgb(227, 227, 227) 0%, rgb(93, 104, 116) 20px);
+    
+     }
+ .animated-shadow {
+        
+          color: #ffffff;       
+          font: normal 60px Varela Round, sans-serif;
+          height: 200px;        
+          left: 0;
+          letter-spacing: 5px;        
+          text-align: center;        
+          text-transform: uppercase;       
+          width: 20px;       
+          animation: move linear 2000ms infinite;        
+          z-index: 2
+        
+        }
+        @keyframes move {
+            
+              0% {
+            
+                text-shadow:
+            
+                  4px -4px 0 #da0641,
+            
+                  3px -3px 0 #da0641,
+            
+                  2px -2px 0 #da0641,
+            
+                  1px -1px 0 #da0641,
+            
+                  -4px 4px 0 #13f1fc,
+            
+                  -3px 3px 0 #13f1fc,
+            
+                  -2px 2px 0 #13f1fc,
+            
+                  -1px 1px 0 #13f1fc
+            
+                ;
+            
+              }
+            
+              25% {
+            
+                text-shadow:
+            
+                  -4px -4px 0 #13f1fc,
+            
+                  -3px -3px 0 #13f1fc,
+            
+                  -2px -2px 0 #13f1fc,
+            
+                  -1px -1px 0 #13f1fc,
+            
+                  4px 4px 0 #da0641,
+            
+                  3px 3px 0 #da0641,
+            
+                  2px 2px 0 #da0641,
+            
+                  1px 1px 0 #da0641
+            
+                ;
+            
+              }
+            
+              50% {
+            
+                text-shadow:
+            
+                  -4px 4px 0 #da0641,
+            
+                  -3px 3px 0 #da0641,
+            
+                  -2px 2px 0 #da0641,
+            
+                  -1px 1px 0 #da0641,
+            
+                  4px -4px 0 #13f1fc,
+            
+                  3px -3px 0 #13f1fc,
+            
+                  2px -2px 0 #13f1fc,
+            
+                  1px -1px 0 #13f1fc
+            
+                ;
+            
+              }
+            
+              75% {
+            
+                text-shadow:
+        
+                  4px 4px 0 #13f1fc,
+            
+                  3px 3px 0 #13f1fc,
+            
+                  2px 2px 0 #13f1fc,
+            
+                  1px 1px 0 #13f1fc,
+            
+                  -4px -4px 0 #da0641,
+            
+                  -3px -3px 0 #da0641,
+            
+                  -2px -2px 0 #da0641,
+            
+                  -1px -1px 0 #da0641
+            
+                ;
+            
+              }
+            
+              100% {
+            
+                text-shadow:
+            
+                  4px -4px 0 #da0641,
+            
+                  3px -3px 0 #da0641,
+            
+                  2px -2px 0 #da0641,
+            
+                  1px -1px 0 #da0641,
+            
+                  -4px 4px 0 #13f1fc,
+            
+                  -3px 3px 0 #13f1fc,
+            
+                  -2px 2px 0 #13f1fc,
+            
+                  -1px 1px 0 #13f1fc
+            
+                ;
+              }
+            
+            }
+
+            
+        
+    
+
